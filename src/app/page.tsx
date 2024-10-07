@@ -89,7 +89,7 @@ export default function Home() {
             Audio Player
             <Button variant="ghost">
               <label htmlFor="audio-upload" title="Upload audio file">
-                <MdOutlineFileUpload className="size-6" />
+                <MdOutlineFileUpload className="size-6 cursor-pointer" />
                 <input
                   type="file"
                   id="audio-upload"
